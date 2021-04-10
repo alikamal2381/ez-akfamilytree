@@ -4,6 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import MyPic from "../images/root-img.png";
+import { PostData } from "../data/post.json";
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -60,7 +61,9 @@ const useStyles = makeStyles((theme) => ({
 
 function Main() {
   const classes = useStyles();
+  //const db = PostData;
 
+  console.log(PostData);
   return (
     <>
       <main>
@@ -110,6 +113,9 @@ function Main() {
           <Grid container spacing={4}>
             <div alignContent="center" alignItems="center">
               Content Main
+              {/*  {PostData.map((postDetail, index) => {
+                return <h1 key={index}>{postDetail.name}</h1>;
+              })} */}
             </div>
           </Grid>
         </Container>
