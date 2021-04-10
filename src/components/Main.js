@@ -12,8 +12,9 @@ const useStyles = makeStyles((theme) => ({
   heroContent: {
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(8, 0, 6),
-    width: "100%",
-    margin: "auto",
+    // width: "100%",
+    // margin: "auto",
+    alignItems: "center",
   },
   avatarimg: {
     height: "250px",
