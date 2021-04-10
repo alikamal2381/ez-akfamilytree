@@ -1,15 +1,18 @@
-//import logo from './logo.svg';
-import "./App.css";
+import React, { Component } from "react";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Family Tree - Coming soon</h1>
-      <h3>Dr. Mehfooz Ullah (Great Grand Father)</h3>
-
-      <h3>By Ali Kamal - (0300-2465967)</h3>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <>
+        <Header />
+        <Main />
+        <Footer />
+      </>
+    );
+  }
 }
 
 export default App;
