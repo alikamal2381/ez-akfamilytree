@@ -113,7 +113,7 @@ function Main() {
             <div alignContent="center" alignItems="center">
               Content Main
               {PostData.map((postDetail, index) => {
-                <h1 key={index}>{postDetail.name}</h1>;
+                return <h1 key={index}>{postDetail.name}</h1>;
               })}
             </div>
           </Grid>
