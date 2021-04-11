@@ -1,23 +1,31 @@
-[
-  {
-    "id": 1,
-    "name": "Mehfoozullah",
-    "parent": "0"
-  },
-  {
-    "id": 2,
-    "name": "Afzal",
-    "parent": "1"
-  },
+{
+  "familyTree": [
+    {
+      "id": 1,
+      "name": "Mehfoozullah",
+      "parent": "0",
+      "notes": "aaaa bbb cccccc"
+    },
+    {
+      "id": 2,
+      "name": "Afzal",
+      "parent": "1",
+      "notes": "aaa bbbbbb ccccccccc"
+    },
 
-  {
-    "id": 3,
-    "name": "Shahid Kamal",
-    "parent": "2"
-  },
-  {
-    "id": 4,
-    "name": "Ali Kamal",
-    "parent": "3"
-  }
-]
+    {
+      "id": 3,
+      "name": "Shahid Kamal",
+      "parent": "2",
+      "notes": "aaaaaa bbb ccccccccc"
+    },
+    {
+      "id": 4,
+      "name": "Ali Kamal",
+      "parent": "3",
+      "notes": "aaaaaa bbbbbb cccccc"
+    }
+  ],
+  "contact": null,
+  "selectedContacts": []
+}
