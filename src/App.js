@@ -12,6 +12,9 @@ class App extends Component {
         <Header />
         <Main />
         <Footer />
+
+        <p>othererer kldksldks kldskd sdkks d</p>
+        <h3>I love you</h3>
       </>
     );
   }
