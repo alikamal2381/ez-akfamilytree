@@ -6,7 +6,7 @@ import PostData from "../data/post.json";
 
 class Main extends Component {
   render() {
-    console.log(PostData);
+    //console.log(PostData);
     return (
       <>
         <main>
@@ -41,6 +41,7 @@ class Main extends Component {
                 </div>
               </Grid>
             </Container>
+
           </div>
         </main>
       </>

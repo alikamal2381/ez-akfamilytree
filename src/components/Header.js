@@ -22,7 +22,7 @@ function Header() {
         <Toolbar>
           <CameraIcon className={classes.icon} />
           <Typography variant="h6" color="inherit" noWrap>
-            Family Tree
+            Family Tree22
           </Typography>
         </Toolbar>
       </AppBar>
