@@ -13,7 +13,7 @@ class App extends Component {
         <Main />
         <Footer />
 
-        <p>testing......g</p>
+        <p>testing......geeeee</p>
       </>
     );
   }
