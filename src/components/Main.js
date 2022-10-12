@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
-//import Container from "@material-ui/core/Container";
+import Container from "@material-ui/core/Container";
 import MyPic from "../images/root-img.png";
 import PostData from "../data/post.json";
 
