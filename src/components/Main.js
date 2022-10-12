@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
+//import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import MyPic from "../images/root-img.png";
 import PostData from "../data/post.json";
 
 class Main extends Component {
   render() {
-    //console.log(PostData);
+    //const data = PostData.JSON
+    console.log(PostData);
     return (
       <>
         <main>
@@ -18,12 +20,26 @@ class Main extends Component {
               className="avatar-img"
               align="center"
             />
-            {
-            /* <Container maxWidth="sm">
+            <Container maxWidth="sm">
               <h1>Dr. Mehfooz Ullah</h1>
               <h3>Great Grand Father</h3>
+              {/*               <Typography
+                component="h1"
+                variant="h2"
+                align="center"
+                color="textPrimary"
+              >
+                Dr. Mehfooz Ullah
+              </Typography>
+              <Typography
+                component="p"
+                variant="h6"
+                align="center"
+                color="textPrimary"
+              >
+                Great Grand Father
+              </Typography> */}
             </Container>
-            */ }
 
             <Container maxWidth="sm">
               {/* End hero unit */}
@@ -37,11 +53,12 @@ class Main extends Component {
                     );
                   })}
 
-                  {/*JSON.stringify(PostData.familyTree, null, 2)*/}
+                  <h3 style={{ color: "red" }}>abcddsjdksjds dksjdksdjk</h3>
+
+                  {JSON.stringify(PostData.familyTree, null, 2)}
                 </div>
               </Grid>
             </Container>
-
           </div>
         </main>
       </>
